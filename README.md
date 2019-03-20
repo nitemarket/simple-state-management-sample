@@ -4,6 +4,12 @@ Utilise react hook to create a simple state management that stores data across a
 
 ### Installation
 
+```
+npm install
+```
+
+### Usage
+
 1. Import dependencies.
 ```
 import { StoreProvider, useStore } from './store/AppState';
