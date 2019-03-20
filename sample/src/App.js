@@ -5,7 +5,7 @@ import { StoreProvider, useStore } from './store/AppState';
 
 const initialState = {tasks: []};
 
-function countReducer(state, action) {
+function taskReducer(state, action) {
   switch (action.type) {
     case 'add':
       return { tasks: state.tasks.concat(action.payload) };
@@ -15,7 +15,7 @@ function countReducer(state, action) {
 }
 
 const App = () => (
-  <StoreProvider initialState={initialState} reducers={[countReducer]}>
+  <StoreProvider initialState={initialState} reducers={[taskReducer]}>
     <div className="App">
       <header className="App-header">
         <a

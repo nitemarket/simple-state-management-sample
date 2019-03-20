@@ -1,7 +1,8 @@
 {
   "name": "simple-state-management",
   "version": "1.0.0",
-  "description": "Simple state management library",
+  "description": "Simple state management library with hook",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
