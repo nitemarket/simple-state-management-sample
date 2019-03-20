@@ -2,12 +2,6 @@
 
 Utilise react hook to create a simple state management that stores data across application.
 
-### Installation
-
-```
-npm install
-```
-
 ### Usage
 
 1. Import dependencies.
